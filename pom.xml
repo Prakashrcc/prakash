@@ -11,6 +11,12 @@
         <junit.platform.version>1.2.0</junit.platform.version>
         <junit.jupiter.version>5.2.0</junit.jupiter.version>
     </properties>
+    
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
 
     <dependencies>
         <dependency>
@@ -69,6 +75,32 @@
             <version>${junit.platform.version}</version>
             <scope>test</scope>
         </dependency>
+          
+    <dependency>
+    <groupId>mysql</groupId>
+    <artifactId>mysql-connector-java</artifactId>
+    <version>8.0.11</version>
+</dependency>
+	<dependency>
+     	<groupId>javax.servlet</groupId>
+     	<artifactId>jstl</artifactId>
+     	<version>1.2</version>
+     </dependency>
+    
+    
+    <!-- https://mvnrepository.com/artifact/org.webjars/jquery -->
+<dependency>
+    <groupId>org.webjars</groupId>
+    <artifactId>jquery</artifactId>
+    <version>3.4.1</version>
+</dependency>
+    
+    <dependency>
+    <groupId>org.webjars</groupId>
+    <artifactId>bootstrap</artifactId>
+    <version>4.3.1</version>
+</dependency>
+        
     </dependencies>
 
     <build>
